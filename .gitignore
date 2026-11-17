@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Model weights / artifacts (never commit)
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.gguf
+
+# Benchmark output
+benchmarks/results/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
